@@ -7,7 +7,8 @@ import { ContinentRes } from '../model/continent.model';
   providedIn: 'root',
 })
 export class ContinentService {
-  private apikey = 'apikey 4BON8b0h9bDsylWX7xV8ic:2fovJu3h5wAY0WhaFsZxFu';
+  private apikey = 'apikey 4R3YgUNsKzrAXKpDPvzYWX:3GlEv1H0nBzm1uOBtwosTv';
+  //4BON8b0h9bDsylWX7xV8ic:2fovJu3h5wAY0WhaFsZxFu
   private url = 'https://api.collectapi.com/corona/continentData';
 
   constructor(private http: HttpClient) {}
