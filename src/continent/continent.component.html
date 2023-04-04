@@ -1,0 +1,3 @@
+<div *ngIf="continents$ | async as continents">
+  <div *ngFor="let continent of continents">{{ continent.continent }}</div>
+</div>
